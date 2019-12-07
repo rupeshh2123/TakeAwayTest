@@ -1,0 +1,1279 @@
+{
+"status": "OK",
+"copyright": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+"num_results": 545,
+"results": [
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/16\/opinion\/trump-2020.html",
+"adx_keywords": "Presidential Election of 2020;United States Politics and Government;Democratic Party;Republican Party;Trump, Donald J;Raimondo, Gina M;Rhode Island",
+"subsection": "",
+"email_count": 1,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006614365,
+"asset_id": 100000006614365,
+"nytdsection": "opinion",
+"byline": "By THOMAS L. FRIEDMAN",
+"type": "Article",
+"title": "‘Trump’s Going to Get Re-elected, Isn’t He?’",
+"abstract": "Voters have reason to worry.",
+"published_date": "2019-07-16",
+"source": "The New York Times",
+"updated": "2019-07-19 18:18:06",
+"des_facet": [
+"PRESIDENTIAL ELECTION OF 2020",
+"UNITED STATES POLITICS AND GOVERNMENT"
+],
+"org_facet": [
+"DEMOCRATIC PARTY",
+"REPUBLICAN PARTY"
+],
+"per_facet": [
+"TRUMP, DONALD J",
+"RAIMONDO, GINA M"
+],
+"geo_facet": [
+"RHODE ISLAND"
+],
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "President Trump in June at the launch of his 2020 campaign in Orlando, Fla.",
+"copyright": "Damon Winter\/The New York Times",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/16\/opinion\/16friedman1\/16friedman1-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/16\/opinion\/16friedman1\/16friedman1-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/16\/opinion\/16friedman1\/16friedman1-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/6184411d-cdf2-537a-8c59-f90c1d72199d"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/21\/world\/europe\/netherlands-dropping-children.html",
+"adx_keywords": "Children and Childhood;Camps and Camping;Parenting;Netherlands",
+"subsection": "europe",
+"email_count": 2,
+"count_type": "EMAILED",
+"column": "Netherlands Dispatch",
+"eta_id": 0,
+"section": "World",
+"id": 100000006616024,
+"asset_id": 100000006616024,
+"nytdsection": "world",
+"byline": "By ELLEN BARRY and DMITRY KOSTYUKOV",
+"type": "Article",
+"title": "A Peculiarly Dutch Summer Rite: Children Let Loose in the Night Woods",
+"abstract": "Far from the land of helicopter parenting, getting ‘dropped’ in the forest is a beloved scouting tradition.",
+"published_date": "2019-07-21",
+"source": "The New York Times",
+"updated": "2019-07-22 13:47:46",
+"des_facet": [
+"CHILDREN AND CHILDHOOD",
+"CAMPS AND CAMPING"
+],
+"org_facet": [
+"PARENTING"
+],
+"per_facet": "",
+"geo_facet": [
+"NETHERLANDS"
+],
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "Droppings are such a normal part of Dutch childhood that many in the Netherlands are surprised to be asked about it.",
+"copyright": "Dmitry Kostyukov for The New York Times",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/18\/world\/xxdropping-08-copy\/xxdropping-08-copy-thumbStandard-v2.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/18\/world\/xxdropping-08-copy\/xxdropping-08-copy-mediumThreeByTwo210-v2.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/18\/world\/xxdropping-08-copy\/xxdropping-08-copy-mediumThreeByTwo440-v2.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/3ba7fd1e-ada5-5480-b89e-a41cbf6561ee"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/18\/opinion\/trump-america-election.html",
+"adx_keywords": "United States Politics and Government;Trump, Donald J;Presidential Election of 2020;Discrimination",
+"subsection": "",
+"email_count": 3,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006618479,
+"asset_id": 100000006618479,
+"nytdsection": "opinion",
+"byline": "By DAVID BROOKS",
+"type": "Article",
+"title": "Donald Trump Hates America",
+"abstract": "The rest of us can love America well.",
+"published_date": "2019-07-18",
+"source": "The New York Times",
+"updated": "2019-07-20 01:23:02",
+"des_facet": [
+"PRESIDENTIAL ELECTION OF 2020",
+"DISCRIMINATION"
+],
+"org_facet": [
+"UNITED STATES POLITICS AND GOVERNMENT"
+],
+"per_facet": [
+"TRUMP, DONALD J"
+],
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "Tourists beneath a painting of George Washington in the Capitol Rotunda.",
+"copyright": "Erin Schaff\/The New York Times",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/18\/opinion\/18brooksWeb\/18brooksWeb-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/18\/opinion\/18brooksWeb\/18brooksWeb-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/18\/opinion\/18brooksWeb\/18brooksWeb-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/f752fe54-634f-55d6-9c8a-4b165ffafe38"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/17\/magazine\/white-men-privilege.html",
+"adx_keywords": "Race and Ethnicity;Whites;Blacks;Discrimination;Racial Profiling;Affirmative Action",
+"subsection": "",
+"email_count": 4,
+"count_type": "EMAILED",
+"column": "Feature",
+"eta_id": 0,
+"section": "Magazine",
+"id": 100000006609354,
+"asset_id": 100000006609354,
+"nytdsection": "magazine",
+"byline": "By CLAUDIA RANKINE",
+"type": "Article",
+"title": "I Wanted to Know What White Men Thought About Their Privilege. So I Asked.",
+"abstract": "My college class asks what it means to be white in America — but interrogating that question as a black woman in the real world is much harder to do.",
+"published_date": "2019-07-17",
+"source": "The New York Times",
+"updated": "2019-07-22 20:48:40",
+"des_facet": [
+"RACE AND ETHNICITY",
+"WHITES",
+"BLACKS",
+"DISCRIMINATION"
+],
+"org_facet": [
+"RACIAL PROFILING",
+"AFFIRMATIVE ACTION"
+],
+"per_facet": "",
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": null,
+"copyright": "Photo illustration by Najeebah Al-Ghadban",
+"approved_for_syndication": 0,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/magazine\/21mag-privilege-promo\/21mag-privilege-promo-thumbStandard.png",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/magazine\/21mag-privilege-promo\/21mag-privilege-promo-mediumThreeByTwo210.png",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/magazine\/21mag-privilege-promo\/21mag-privilege-promo-mediumThreeByTwo440.png",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/146e7fc7-366f-5fe5-8f05-d6cad584b544"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/19\/business\/safe-deposit-box-theft.html",
+"adx_keywords": "Banking and Financial Institutions;Safes and Vaults;Bank Robberies;Bank of America Corporation;Citigroup Inc;JPMorgan Chase & Company;Wells Fargo & Company",
+"subsection": "",
+"email_count": 5,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Business",
+"id": 100000006550433,
+"asset_id": 100000006550433,
+"nytdsection": "business",
+"byline": "By STACY COWLEY",
+"type": "Article",
+"title": "Safe Deposit Boxes Aren’t Safe",
+"abstract": "When Philip Poniz opened Box 105 at his local Wells Fargo, he discovered it was empty — and that he was totally unprotected by federal law.",
+"published_date": "2019-07-19",
+"source": "The New York Times",
+"updated": "2019-07-23 16:45:34",
+"des_facet": [
+"BANKING AND FINANCIAL INSTITUTIONS",
+"SAFES AND VAULTS",
+"BANK ROBBERIES"
+],
+"org_facet": [
+"BANK OF AMERICA CORPORATION",
+"CITIGROUP INC",
+"JPMORGAN CHASE & COMPANY",
+"WELLS FARGO & COMPANY"
+],
+"per_facet": "",
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "There are an estimated 25 million safe deposit boxes in America, and few protections for customers. No federal laws govern the boxes; no rules require banks to compensate customers if their property is stolen or destroyed.",
+"copyright": "Getty Images",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/business\/19boxes-01\/19boxes-01-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/business\/19boxes-01\/19boxes-01-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/business\/19boxes-01\/19boxes-01-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/0b398cb0-5135-5e1a-839d-d8621538962a"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/15\/opinion\/trump-pelosi-squad.html",
+"adx_keywords": "Liberalism (US Politics);United States Politics and Government;Democratic Party;Republican Party;Trump, Donald J;Pelosi, Nancy;Ocasio-Cortez, Alexandria;Omar, Ilhan;Tlaib, Rashida;Pressley, Ayanna;House of Representatives",
+"subsection": "",
+"email_count": 6,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006612603,
+"asset_id": 100000006612603,
+"nytdsection": "opinion",
+"byline": "By DAVID BROOKS",
+"type": "Article",
+"title": "What Pelosi Versus the Squad Really Means",
+"abstract": "The progressive-liberal civil war isn’t just a conflict of what’s too far left.",
+"published_date": "2019-07-15",
+"source": "The New York Times",
+"updated": "2019-07-19 13:17:39",
+"des_facet": [
+"LIBERALISM (US POLITICS)",
+"UNITED STATES POLITICS AND GOVERNMENT"
+],
+"org_facet": [
+"DEMOCRATIC PARTY",
+"REPUBLICAN PARTY",
+"HOUSE OF REPRESENTATIVES"
+],
+"per_facet": [
+"TRUMP, DONALD J",
+"PELOSI, NANCY",
+"OCASIO-CORTEZ, ALEXANDRIA",
+"OMAR, ILHAN",
+"TLAIB, RASHIDA",
+"PRESSLEY, AYANNA"
+],
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "From left, Representatives Ayanna Pressley, Ilhan Omar, speaking, Alexandria Ocasio-Cortez and Rashida Tlaib at a press conference Monday on Capitol Hill.",
+"copyright": "Anna Moneymaker\/The New York Times",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/15\/opinion\/15brooksWeb\/15brooksWeb-thumbStandard-v3.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/15\/opinion\/15brooksWeb\/15brooksWeb-mediumThreeByTwo210-v3.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/15\/opinion\/15brooksWeb\/15brooksWeb-mediumThreeByTwo440-v3.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/6f921b1b-0536-55a0-a47b-3118f4dc5dc0"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/19\/opinion\/send-her-back-ilhan-omar.html",
+"adx_keywords": "Politics and Government;Race and Ethnicity;Immigration and Emigration;Irish-Americans;House of Representatives;Trump, Donald J;Ireland;United States",
+"subsection": "",
+"email_count": 7,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006618656,
+"asset_id": 100000006618656,
+"nytdsection": "opinion",
+"byline": "By TIMOTHY EGAN",
+"type": "Article",
+"title": "Send Me Back to the Country I Came From",
+"abstract": "Ireland, the country of my ancestors, has become what America used to be.",
+"published_date": "2019-07-19",
+"source": "The New York Times",
+"updated": "2019-07-20 14:30:32",
+"des_facet": [
+"POLITICS AND GOVERNMENT",
+"RACE AND ETHNICITY"
+],
+"org_facet": [
+"IMMIGRATION AND EMIGRATION",
+"IRISH-AMERICANS",
+"HOUSE OF REPRESENTATIVES"
+],
+"per_facet": [
+"TRUMP, DONALD J"
+],
+"geo_facet": [
+"IRELAND",
+"UNITED STATES"
+],
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "",
+"copyright": "Getty Images",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/19\/opinion\/19eganWeb\/19eganWeb-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/19\/opinion\/19eganWeb\/19eganWeb-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/19\/opinion\/19eganWeb\/19eganWeb-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/66c182d0-13a4-5882-a3c1-05de4dfc9b47"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/19\/upshot\/trump-electoral-college-edge-.html",
+"adx_keywords": "Presidential Election of 2020;Electoral College;Polls and Public Opinion;Trump, Donald J;Wisconsin;Miami-Dade County (Fla);Midterm Elections (2018);United States Politics and Government",
+"subsection": "",
+"email_count": 8,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "The Upshot",
+"id": 100000006602494,
+"asset_id": 100000006602494,
+"nytdsection": "the upshot",
+"byline": "By NATE COHN",
+"type": "Article",
+"title": "Trump’s Electoral College Edge Could Grow in 2020, Rewarding Polarizing Campaign",
+"abstract": "Re-election looks plausible even with a bigger loss in the national popular vote.",
+"published_date": "2019-07-19",
+"source": "The New York Times",
+"updated": "2019-07-24 15:48:41",
+"des_facet": [
+"POLLS AND PUBLIC OPINION",
+"MIDTERM ELECTIONS (2018)"
+],
+"org_facet": [
+"PRESIDENTIAL ELECTION OF 2020",
+"ELECTORAL COLLEGE",
+"UNITED STATES POLITICS AND GOVERNMENT"
+],
+"per_facet": [
+"TRUMP, DONALD J"
+],
+"geo_facet": [
+"WISCONSIN",
+"MIAMI-DADE COUNTY (FLA)"
+],
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "",
+"copyright": "",
+"approved_for_syndication": 0,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/18\/upshot\/19up-mapper1-1563493742586\/19up-mapper1-1563493742586-thumbStandard.png",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/18\/upshot\/19up-mapper1-1563493742586\/19up-mapper1-1563493742586-mediumThreeByTwo210.png",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/18\/upshot\/19up-mapper1-1563493742586\/19up-mapper1-1563493742586-mediumThreeByTwo440.png",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/908c0a83-5845-5da8-bbe2-42baa2f3f658"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/16\/opinion\/donald-trump-lies.html",
+"adx_keywords": "Trump, Donald J;United States Politics and Government;Rumors and Misinformation",
+"subsection": "",
+"email_count": 9,
+"count_type": "EMAILED",
+"column": "Editorial Observer",
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006613111,
+"asset_id": 100000006613111,
+"nytdsection": "opinion",
+"byline": "By ALEX KINGSBURY",
+"type": "Article",
+"title": "In Trump I Trust",
+"abstract": "The president’s political project requires more than a few leaps of faith.",
+"published_date": "2019-07-16",
+"source": "The New York Times",
+"updated": "2019-07-19 13:17:39",
+"des_facet": [
+"UNITED STATES POLITICS AND GOVERNMENT",
+"RUMORS AND MISINFORMATION"
+],
+"org_facet": "",
+"per_facet": [
+"TRUMP, DONALD J"
+],
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "",
+"copyright": "Tom Brenner for The New York Times",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/16\/opinion\/16king1\/16king1-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/16\/opinion\/16king1\/16king1-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/16\/opinion\/16king1\/16king1-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/23893d23-2503-5e54-bc22-b0170d710c5a"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/20\/opinion\/sunday\/trump-squad-democrats-2020.html",
+"adx_keywords": "Trump, Donald J;Discrimination;United States Politics and Government;Presidential Election of 2020;Democratic Party;Voting and Voters;Polls and Public Opinion",
+"subsection": "sunday review",
+"email_count": 10,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006620440,
+"asset_id": 100000006620440,
+"nytdsection": "opinion",
+"byline": "By FRANK BRUNI",
+"type": "Article",
+"title": "How Democrats Defeat Donald Trump",
+"abstract": "Stop talking so much about the America that he’s destroying. Save your breath for the America you want to create.",
+"published_date": "2019-07-20",
+"source": "The New York Times",
+"updated": "2019-07-22 05:38:51",
+"des_facet": [
+"DISCRIMINATION",
+"UNITED STATES POLITICS AND GOVERNMENT",
+"PRESIDENTIAL ELECTION OF 2020"
+],
+"org_facet": [
+"DEMOCRATIC PARTY",
+"VOTING AND VOTERS",
+"POLLS AND PUBLIC OPINION"
+],
+"per_facet": [
+"TRUMP, DONALD J"
+],
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "",
+"copyright": "Ben Wiseman",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/opinion\/sunday\/21bruni\/21bruni-thumbStandard-v2.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/opinion\/sunday\/21bruni\/21bruni-mediumThreeByTwo210-v2.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/opinion\/sunday\/21bruni\/21bruni-mediumThreeByTwo440-v2.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/4b3c467c-ed6a-5c26-be1b-0512500d792a"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/19\/opinion\/trump-ilhan-omar.html",
+"adx_keywords": "Anti-Semitism;Jews and Judaism;Fringe Groups and Movements;Israel;Zionism;Christians and Christianity;Conservatism (US Politics);Democratic Party;Republican Party;United States Politics and Government;Trump, Donald J",
+"subsection": "",
+"email_count": 11,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006617360,
+"asset_id": 100000006617360,
+"nytdsection": "opinion",
+"byline": "By MICHELLE GOLDBERG",
+"type": "Article",
+"title": "Defenders of a Racist President Use Jews as Human Shields",
+"abstract": "Trump’s bigoted attack on four congresswomen of color has nothing to do with fighting anti-Semitism.",
+"published_date": "2019-07-19",
+"source": "The New York Times",
+"updated": "2019-07-20 17:34:43",
+"des_facet": [
+"ANTI-SEMITISM",
+"JEWS AND JUDAISM",
+"CONSERVATISM (US POLITICS)"
+],
+"org_facet": [
+"FRINGE GROUPS AND MOVEMENTS",
+"ZIONISM",
+"CHRISTIANS AND CHRISTIANITY",
+"DEMOCRATIC PARTY",
+"REPUBLICAN PARTY",
+"UNITED STATES POLITICS AND GOVERNMENT"
+],
+"per_facet": [
+"TRUMP, DONALD J"
+],
+"geo_facet": [
+"ISRAEL"
+],
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "Sebastian Gorka at the White House last week.",
+"copyright": "Kevin Lamarque\/Reuters",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/19\/opinion\/19goldbergWeb\/19goldbergWeb-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/19\/opinion\/19goldbergWeb\/19goldbergWeb-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/19\/opinion\/19goldbergWeb\/19goldbergWeb-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/0974f1c0-e1d9-5e76-bb31-3e13aa8e8a79"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/15\/well\/live\/sunglasses-that-help-your-eyes-as-well-as-your-look.html",
+"adx_keywords": "Eyes and Eyesight;Ultraviolet Light;Sunlight;Sunglasses;Eyeglasses;Cataracts",
+"subsection": "live",
+"email_count": 12,
+"count_type": "EMAILED",
+"column": "Personal Health",
+"eta_id": 0,
+"section": "Well",
+"id": 100000006593226,
+"asset_id": 100000006593226,
+"nytdsection": "well",
+"byline": "By JANE E. BRODY",
+"type": "Article",
+"title": "Sunglasses That Help Your Eyes as Well as Your Look",
+"abstract": "Lenses that transition in sunlight to become sunglasses help protect eyes from dust, bugs, drying breezes and, most important of all, the damaging effects of ultraviolet light.",
+"published_date": "2019-07-15",
+"source": "The New York Times",
+"updated": "2019-07-17 09:08:00",
+"des_facet": [
+"EYES AND EYESIGHT",
+"ULTRAVIOLET LIGHT",
+"SUNLIGHT",
+"EYEGLASSES"
+],
+"org_facet": [
+"SUNGLASSES",
+"CATARACTS"
+],
+"per_facet": "",
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "",
+"copyright": "Gracia Lam",
+"approved_for_syndication": 0,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/16\/science\/16BRODYSUNGLASSES\/16BRODYSUNGLASSES-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/16\/science\/16BRODYSUNGLASSES\/16BRODYSUNGLASSES-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/16\/science\/16BRODYSUNGLASSES\/16BRODYSUNGLASSES-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/5929436d-26c3-5131-af1e-af0f075e079a"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/19\/opinion\/trump-presidency-immigration.html",
+"adx_keywords": "Cather, Willa;United States;Immigration and Emigration;United States Politics and Government",
+"subsection": "",
+"email_count": 13,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006620361,
+"asset_id": 100000006620361,
+"nytdsection": "opinion",
+"byline": "By BRET STEPHENS",
+"type": "Article",
+"title": "The Perfect Antidote to Trump",
+"abstract": "Willa Cather knew what made America great.",
+"published_date": "2019-07-19",
+"source": "The New York Times",
+"updated": "2019-07-20 22:20:25",
+"des_facet": [
+"IMMIGRATION AND EMIGRATION"
+],
+"org_facet": [
+"UNITED STATES POLITICS AND GOVERNMENT"
+],
+"per_facet": [
+"CATHER, WILLA"
+],
+"geo_facet": [
+"UNITED STATES"
+],
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "Willa Cather in the meadow of High Mowing farm near Jaffrey, N.H., where she wrote part of \"My Antonia.”",
+"copyright": "Philip L. and Helen Cather Southwick Collection, University of Nebraska-Lincoln Libraries",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/29\/opinion\/29stephensWeb\/29stephensWeb-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/29\/opinion\/29stephensWeb\/29stephensWeb-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/29\/opinion\/29stephensWeb\/29stephensWeb-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/967961cb-12bc-57eb-beaa-50dfadbf8fef"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/17\/technology\/personaltech\/sleep-tracking-devices-apps.html",
+"adx_keywords": "Sleep;Mobile Applications;Wearable Computing;Computers and the Internet;Sensors;Apple Inc;Fitbit",
+"subsection": "personal tech",
+"email_count": 14,
+"count_type": "EMAILED",
+"column": "Tech Fix",
+"eta_id": 0,
+"section": "Technology",
+"id": 100000006614839,
+"asset_id": 100000006614839,
+"nytdsection": "technology",
+"byline": "By BRIAN X. CHEN",
+"type": "Article",
+"title": "The Sad Truth About Sleep-Tracking Devices and Apps",
+"abstract": "Our personal tech columnist tracked his sleep for two weeks with an Apple Watch and some software. Here’s why he concluded it was a pointless exercise.",
+"published_date": "2019-07-17",
+"source": "The New York Times",
+"updated": "2019-07-18 18:31:21",
+"des_facet": [
+"SLEEP",
+"MOBILE APPLICATIONS",
+"WEARABLE COMPUTING"
+],
+"org_facet": [
+"COMPUTERS AND THE INTERNET",
+"SENSORS",
+"APPLE INC",
+"FITBIT"
+],
+"per_facet": "",
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": null,
+"copyright": "Glenn Harvey",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/business\/17Techfix-illo\/17Techfix-illo-thumbStandard.gif",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/business\/17Techfix-illo\/17Techfix-illo-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/business\/17Techfix-illo\/17Techfix-illo-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/592004d2-eef2-533e-90ef-2a4b952bd5ff"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/15\/us\/ghislaine-maxwell-epstein.html",
+"adx_keywords": "Maxwell, Ghislaine;Epstein, Jeffrey E (1953- );Human Trafficking;Child Abuse and Neglect;Sex Crimes;New York City;Palm Beach (Fla);Prostitution",
+"subsection": "",
+"email_count": 15,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "U.S.",
+"id": 100000006612238,
+"asset_id": 100000006612238,
+"nytdsection": "u.s.",
+"byline": "By MEGAN TWOHEY and JACOB BERNSTEIN",
+"type": "Article",
+"title": "The ‘Lady of the House’ Who Was Long Entangled With Jeffrey Epstein",
+"abstract": "Ghislaine Maxwell’s yearslong involvement with Mr. Epstein, who faces charges of sex trafficking and abuse, has raised questions about what she may have known.",
+"published_date": "2019-07-15",
+"source": "The New York Times",
+"updated": "2019-07-17 18:20:55",
+"des_facet": [
+"PROSTITUTION"
+],
+"org_facet": [
+"HUMAN TRAFFICKING",
+"CHILD ABUSE AND NEGLECT",
+"SEX CRIMES"
+],
+"per_facet": [
+"MAXWELL, GHISLAINE",
+"EPSTEIN, JEFFREY E (1953- )"
+],
+"geo_facet": [
+"NEW YORK CITY",
+"PALM BEACH (FLA)"
+],
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "Jeffrey Epstein and Ghislaine Maxwell in 2005. She helped manage Mr. Epstein&rsquo;s homes, facilitate his social relationships and recruit masseuses.",
+"copyright": "Joe Schildhorn\/Patrick McMullan, via Getty Images",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/multimedia\/15maxwell\/15maxwell-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/multimedia\/15maxwell\/15maxwell-mediumThreeByTwo210-v2.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/multimedia\/15maxwell\/15maxwell-mediumThreeByTwo440-v2.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/6acd8b85-9e80-53ae-a274-63b817c338b4"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/19\/opinion\/trump-2020-democrats.html",
+"adx_keywords": "United States Politics and Government;United States Economy;Presidential Election of 2016;Trump, Donald J;Sanders, Bernard;Ocasio-Cortez, Alexandria",
+"subsection": "",
+"email_count": 16,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006618336,
+"asset_id": 100000006618336,
+"nytdsection": "opinion",
+"byline": "By RACHEL L. HARRIS and LISA TARCHAK",
+"type": "Article",
+"title": "Donald Trump, and Other Readers, Had a Lot to Say About Friedman’s Column",
+"abstract": "More than 5,000 readers, including the president, weighed in.",
+"published_date": "2019-07-19",
+"source": "The New York Times",
+"updated": "2019-07-22 18:23:19",
+"des_facet": [
+"UNITED STATES POLITICS AND GOVERNMENT",
+"PRESIDENTIAL ELECTION OF 2016"
+],
+"org_facet": [
+"UNITED STATES ECONOMY"
+],
+"per_facet": [
+"TRUMP, DONALD J",
+"SANDERS, BERNARD",
+"OCASIO-CORTEZ, ALEXANDRIA"
+],
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "From left, the Democratic representatives Rashida Tlaib, Ilhan Omar, Ayanna Pressley and Alexandria Ocasio-Cortez (also known as “the squad”) during a news conference at the Capitol. Readers disagreed about how the group’s politics would affect the 2020 presidential race. ",
+"copyright": "J. Scott Applewhite\/Associated Press",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/multimedia\/17now-squad\/merlin_158079702_ed970b14-43ad-4cb8-84c1-e022f1518c79-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/multimedia\/17now-squad\/merlin_158079702_ed970b14-43ad-4cb8-84c1-e022f1518c79-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/multimedia\/17now-squad\/merlin_158079702_ed970b14-43ad-4cb8-84c1-e022f1518c79-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/f40d4a20-5a9b-5284-a100-205a713a17b8"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/13\/health\/urinary-infections-drug-resistant.html",
+"adx_keywords": "Antibiotics;Drug Resistance (Microbial);Infections;Research;Women and Girls;Urinary Tract;E Coli (Bacteria);your-feed-science;your-feed-health",
+"subsection": "",
+"email_count": 17,
+"count_type": "EMAILED",
+"column": "Deadly germs, lost cures",
+"eta_id": 0,
+"section": "Health",
+"id": 100000006607548,
+"asset_id": 100000006607548,
+"nytdsection": "health",
+"byline": "By MATT RICHTEL",
+"type": "Article",
+"title": "Urinary Tract Infections Affect Millions. The Cures Are Faltering.",
+"abstract": "As the infections become increasingly resistant to antibiotics, some standard treatments no longer work for an ailment that was once easily cured.",
+"published_date": "2019-07-13",
+"source": "The New York Times",
+"updated": "2019-07-19 13:04:33",
+"des_facet": [
+"ANTIBIOTICS",
+"DRUG RESISTANCE (MICROBIAL)",
+"INFECTIONS",
+"YOUR-FEED-SCIENCE",
+"YOUR-FEED-HEALTH"
+],
+"org_facet": [
+"RESEARCH",
+"WOMEN AND GIRLS",
+"URINARY TRACT",
+"E COLI (BACTERIA)"
+],
+"per_facet": "",
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "Dr. Lee Riley of the University of California, Berkeley, has been studying antibiotic-resistant strains of E. coli, which can cause urinary tract infections. “We’ve suspected maybe some of these U.T.I. cases may be food-borne,” he said.",
+"copyright": "Brian L. Frank for The New York Times",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/09\/science\/00GERMS-UTI1\/00GERMS-UTI1-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/09\/science\/00GERMS-UTI1\/00GERMS-UTI1-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/09\/science\/00GERMS-UTI1\/00GERMS-UTI1-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/4032cd8c-9178-56f8-99c0-49a83f252289"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/17\/opinion\/donald-trump-racist.html",
+"adx_keywords": "Trump, Donald J;Discrimination;Race and Ethnicity;Immigration and Emigration;United States Politics and Government",
+"subsection": "",
+"email_count": 18,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006616788,
+"asset_id": 100000006616788,
+"nytdsection": "opinion",
+"byline": "By NICHOLAS KRISTOF",
+"type": "Article",
+"title": "Trump Is Racist to the Bone",
+"abstract": "Trump’s hate is evident from his jawbones down to his thumbs and little toes.",
+"published_date": "2019-07-17",
+"source": "The New York Times",
+"updated": "2019-07-19 13:17:41",
+"des_facet": [
+"DISCRIMINATION",
+"RACE AND ETHNICITY",
+"UNITED STATES POLITICS AND GOVERNMENT"
+],
+"org_facet": [
+"IMMIGRATION AND EMIGRATION"
+],
+"per_facet": [
+"TRUMP, DONALD J"
+],
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "",
+"copyright": "Getty Images",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/opinion\/17kristofWeb\/17kristofWeb-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/opinion\/17kristofWeb\/17kristofWeb-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/17\/opinion\/17kristofWeb\/17kristofWeb-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/4bfdb3db-79ed-5a31-a182-f0f74866f737"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/19\/opinion\/trump-rally.html",
+"adx_keywords": "Trump, Donald J;Blacks;Discrimination;Lynching;Demonstrations, Protests and Riots;Omar, Ilhan;United States Politics and Government",
+"subsection": "sunday review",
+"email_count": 19,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006620026,
+"asset_id": 100000006620026,
+"nytdsection": "opinion",
+"byline": "By JAMELLE BOUIE",
+"type": "Article",
+"title": "The Joy of Hatred",
+"abstract": "Trump and “his people” reach deep into the violent history of public spectacle in America.",
+"published_date": "2019-07-19",
+"source": "The New York Times",
+"updated": "2019-07-23 19:11:38",
+"des_facet": [
+"BLACKS",
+"DISCRIMINATION",
+"UNITED STATES POLITICS AND GOVERNMENT"
+],
+"org_facet": [
+"LYNCHING",
+"DEMONSTRATIONS, PROTESTS AND RIOTS"
+],
+"per_facet": [
+"TRUMP, DONALD J",
+"OMAR, ILHAN"
+],
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "A Trump rally on Wednesday in Greenville, N.C., where supporters chanted, &ldquo;Send her back,&rdquo; about Representative Ilhan Omar.",
+"copyright": "Tom Brenner for The New York Times",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/opinion\/21bouie1\/21bouie1-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/opinion\/21bouie1\/merlin_158088357_fda8d9eb-29d7-4634-8c88-338681c248d2-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/opinion\/21bouie1\/merlin_158088357_fda8d9eb-29d7-4634-8c88-338681c248d2-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/ff3eda4a-0c91-5b6d-9241-4a86cd88807e"
+},
+{
+"url": "https:\/\/www.nytimes.com\/2019\/07\/19\/opinion\/sunday\/leana-wen-planned-parenthood.html",
+"adx_keywords": "Abortion;Planned Parenthood Federation of America;Health Insurance and Managed Care;Women and Girls;United States Politics and Government",
+"subsection": "sunday review",
+"email_count": 20,
+"count_type": "EMAILED",
+"column": null,
+"eta_id": 0,
+"section": "Opinion",
+"id": 100000006619872,
+"asset_id": 100000006619872,
+"nytdsection": "opinion",
+"byline": "By LEANA S. WEN",
+"type": "Article",
+"title": "Leana Wen: Why I Left Planned Parenthood",
+"abstract": "I believe abortion is about health care, not politics. Many of my colleagues disagreed.",
+"published_date": "2019-07-19",
+"source": "The New York Times",
+"updated": "2019-07-20 22:20:23",
+"des_facet": [
+"ABORTION",
+"UNITED STATES POLITICS AND GOVERNMENT"
+],
+"org_facet": [
+"PLANNED PARENTHOOD FEDERATION OF AMERICA",
+"HEALTH INSURANCE AND MANAGED CARE",
+"WOMEN AND GIRLS"
+],
+"per_facet": "",
+"geo_facet": "",
+"media": [
+{
+"type": "image",
+"subtype": "photo",
+"caption": "Dr. Leana Wen speaking at a protest against anti-abortion legislation outside the Supreme Court in May.",
+"copyright": "James Lawler Duggan\/Reuters",
+"approved_for_syndication": 1,
+"media-metadata": [
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/opinion\/21wenWeb\/21wenWeb-thumbStandard.jpg",
+"format": "Standard Thumbnail",
+"height": 75,
+"width": 75
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/opinion\/21wenWeb\/merlin_155207499_2334e6b6-7f9a-462b-b83f-4227870ef98a-mediumThreeByTwo210.jpg",
+"format": "mediumThreeByTwo210",
+"height": 140,
+"width": 210
+},
+{
+"url": "https:\/\/static01.nyt.com\/images\/2019\/07\/21\/opinion\/21wenWeb\/merlin_155207499_2334e6b6-7f9a-462b-b83f-4227870ef98a-mediumThreeByTwo440.jpg",
+"format": "mediumThreeByTwo440",
+"height": 293,
+"width": 440
+}
+]
+}
+],
+"uri": "nyt:\/\/article\/0a743808-8752-57f5-9d0d-39c21598893c"
+}
+]
+}
