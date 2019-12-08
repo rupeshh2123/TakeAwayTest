@@ -10,23 +10,23 @@ import Foundation
 import UIKit
 
 protocol ArticleTableViewDataSourceDelegate: class {
-    func reloadArticleTableView()
+    func onbuildRowsCompleted(with newIndexPathsToReload: [IndexPath]?)
     func fetchArticles()
 }
 
 class ArticleTableViewDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
     
     weak var delegate: ArticleTableViewDataSourceDelegate?
-    private var sections = [NYTSection]()
+    var totalCount: Int = 0
+    var rows: [NYTRow] = []
     
-    var article: Article? {
+    
+    var articleResult: [ArticleResult] = [] {
         didSet {
-            if let model = article {
-                buildArticleRows(for: model)
-            }
+            buildArticleRows(for: articleResult)
         }
     }
-    
+        
     private func convertedDate(publishedDate: String) -> Date? {
         let formatter = ISO8601DateFormatter()
         formatter.formatOptions = [.withFullDate,
@@ -38,35 +38,48 @@ class ArticleTableViewDataSource: NSObject, UITableViewDataSource, UITableViewDe
         return convertedDate
     }
     
-    private func buildArticleRows(for model: Article) {
-        var rows: [NYTRow] = []
-        for result in model.results {
+    private func buildArticleRows(for articleResult: [ArticleResult]) {
+        for result in articleResult {
             let articleRow = NYTRow()
             let articleTableViewCellModel = ArticleTableViewCellModel(title: result.title, description: result.publishedDate)
             articleRow.data = articleTableViewCellModel
             articleRow.type = ArticleTableViewCell.self
             rows.append(articleRow)
         }
-        sections.append(NYTSection(sectionTitle: "", rows: rows))
-        delegate?.reloadArticleTableView()
+        rows.append(contentsOf: rows)
+        if rows.count > 20 {
+          let indexPathsToReload = self.calculateIndexPathsToReload(from: articleResult)
+          self.delegate?.onbuildRowsCompleted(with: indexPathsToReload)
+        } else {
+          self.delegate?.onbuildRowsCompleted(with: .none)
+        }
     }
     
-
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if sections.count > 0 {
-            return sections[section].rows.count
-        }
-        return 0
+        rows.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let row = sections[indexPath.section].rows[indexPath.row]
-        
+        let row = rows[indexPath.row]
         guard let cell = tableView.dequeueReusableCell(withIdentifier: ArticleTableViewCell.reuseIdentifier, for: indexPath) as? ArticleTableViewCell else {
             return UITableViewCell()
         }
         cell.model = (row.data as? ArticleTableViewCellModel)!
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if indexPath.row == articleResult.count - 1 {
+            if articleResult.count < totalCount {
+                delegate?.fetchArticles()
+            }
+        }
+    }
+    
+    private func calculateIndexPathsToReload(from newArticleResult: [ArticleResult]) -> [IndexPath] {
+      let startIndex = rows.count - newArticleResult.count
+      let endIndex = startIndex + newArticleResult.count
+      return (startIndex..<endIndex).map { IndexPath(row: $0, section: 0) }
     }
 }
 

@@ -14,14 +14,18 @@ class ArticleViewController: UIViewController {
     @IBOutlet private weak var activityIndicatorView: UIActivityIndicatorView!
     private var articleTableViewDataSource = ArticleTableViewDataSource()
     var popularType: PopularType = .emailed
-
+    var offset = 0
+    var isFetchInProgress = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Articles"
         setUpUIComponents()
         fetchArticles()
     }
+
     
+
     private func setUpUIComponents() {
         activityIndicatorView.hidesWhenStopped = true
         articleTableView?.dataSource = articleTableViewDataSource
@@ -36,22 +40,41 @@ class ArticleViewController: UIViewController {
 }
 
 extension ArticleViewController: ArticleTableViewDataSourceDelegate {
-    func reloadArticleTableView() {
-        articleTableView.reloadData()
+    
+     func onbuildRowsCompleted(with newIndexPathsToReload: [IndexPath]?) {
+       // 1
+       guard let newIndexPathsToReload = newIndexPathsToReload else {
+         articleTableView.isHidden = false
+         articleTableView.reloadData()
+         return
+       }
+       articleTableView.reloadData()
+     }
+    
+    func visibleIndexPathsToReload(intersecting indexPaths: [IndexPath]) -> [IndexPath] {
+      let indexPathsForVisibleRows = articleTableView.indexPathsForVisibleRows ?? []
+      let indexPathsIntersection = Set(indexPathsForVisibleRows).intersection(indexPaths)
+      return Array(indexPathsIntersection)
     }
-
+    
     func fetchArticles() {
+        guard !isFetchInProgress else { return }
+        isFetchInProgress = true
         activityIndicatorView.startAnimating()
-        ArticleRequest().getArticles(for: popularType, offset: 1, { [weak self] (article) in
+        ArticleRequest().getArticles(for: popularType, offset: offset, { [weak self] (article) in
             guard let weakSelf = self else { return }
             weakSelf.activityIndicatorView.stopAnimating()
-            weakSelf.articleTableViewDataSource.article = article
+            weakSelf.articleTableViewDataSource.totalCount = article.count ?? 0
+            weakSelf.articleTableViewDataSource.articleResult = article.results
+            weakSelf.isFetchInProgress = false
+            weakSelf.offset = weakSelf.offset + 20
             }, failure: {
                 [weak self] (error) in
                 guard let weakSelf = self else { return }
+                weakSelf.isFetchInProgress = false
                 weakSelf.activityIndicatorView.stopAnimating()
                 ErrorHandler.showError(error: error, viewController: self!)
         })
     }
-
+    
 }

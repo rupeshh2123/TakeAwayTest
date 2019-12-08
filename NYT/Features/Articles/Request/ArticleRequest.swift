@@ -26,13 +26,13 @@ class ArticleRequest {
         }
         var requestUrl: String = ""
         if type == .emailed {
-            requestUrl = Constants.API.baseUrl + mostEmailedAPIEndPoint.replacingOccurrences(of: "$apiKey", with: Constants.apiKey).replacingOccurrences(of: "$offset", with: "\(20 * offset)")
+            requestUrl = Constants.API.baseUrl + mostEmailedAPIEndPoint.replacingOccurrences(of: "$apiKey", with: Constants.apiKey).replacingOccurrences(of: "$offset", with: "\(offset)")
         }
         if type == .shared {
-            requestUrl = Constants.API.baseUrl + mostSharedAPIEndPoint.replacingOccurrences(of: "$apiKey", with: Constants.apiKey).replacingOccurrences(of: "$offset", with: "\(20 * offset)")
+            requestUrl = Constants.API.baseUrl + mostSharedAPIEndPoint.replacingOccurrences(of: "$apiKey", with: Constants.apiKey).replacingOccurrences(of: "$offset", with: "\(offset)")
         }
         if type == .viewed {
-            requestUrl = Constants.API.baseUrl + mostViewedAPIEndPoint.replacingOccurrences(of: "$apiKey", with: Constants.apiKey).replacingOccurrences(of: "$offset", with: "\(20 * offset)")
+            requestUrl = Constants.API.baseUrl + mostViewedAPIEndPoint.replacingOccurrences(of: "$apiKey", with: Constants.apiKey).replacingOccurrences(of: "$offset", with: "\(offset)")
         }
         let request = SessionManager.sharedInstance.request(requestUrl, method: .get)
         print("GetArticleRequest: \(request.request!.url!.absoluteString)")
