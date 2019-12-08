@@ -20,6 +20,7 @@ class ArticleTableViewDataSource: NSObject, UITableViewDataSource, UITableViewDe
     weak var delegate: ArticleTableViewDataSourceDelegate?
     var totalCount: Int = 0
     var rows: [NYTRow] = []
+    var isOfflineMode: Bool = false
     
     var articleResult: [ArticleResult] = [] {
         didSet {
@@ -46,7 +47,6 @@ class ArticleTableViewDataSource: NSObject, UITableViewDataSource, UITableViewDe
             articleRow.type = ArticleTableViewCell.self
             rows.append(articleRow)
         }
-        rows.append(contentsOf: rows)
         self.delegate?.onbuildRowsCompleted()
     }
     
@@ -64,6 +64,7 @@ class ArticleTableViewDataSource: NSObject, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        guard !isOfflineMode else { return }
         if indexPath.row == articleResult.count - 1 {
             if articleResult.count < totalCount {
                 delegate?.fetchArticles()

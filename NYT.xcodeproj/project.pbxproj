@@ -42,6 +42,7 @@
 		62EAC7B022E9EF9200D2DD53 /* ArticleRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC7AF22E9EF9200D2DD53 /* ArticleRequestTests.swift */; };
 		62FBAF7A239CF13200F68896 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBAF78239CF13200F68896 /* ArticleDetailViewController.swift */; };
 		62FBAF7B239CF13200F68896 /* ArticleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FBAF79239CF13200F68896 /* ArticleDetailViewController.xib */; };
+		62FBAF80239CF7FD00F68896 /* NYTModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62FBAF7E239CF7FD00F68896 /* NYTModel.xcdatamodeld */; };
 		66CFABAF36F86B4F63639A11 /* Pods_NYTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440DF499DF8439F8F42B491D /* Pods_NYTUITests.framework */; };
 		C0B0C37A42B096ADB852DA28 /* Pods_NYT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD74F4A928BDA544E99FE774 /* Pods_NYT.framework */; };
 		CA4AFABB42CCCC612CFD7814 /* Pods_NYTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C90523044498F3D528A1BE /* Pods_NYTTests.framework */; };
@@ -110,6 +111,7 @@
 		62EAC7AF22E9EF9200D2DD53 /* ArticleRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequestTests.swift; sourceTree = "<group>"; };
 		62FBAF78239CF13200F68896 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 		62FBAF79239CF13200F68896 /* ArticleDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleDetailViewController.xib; sourceTree = "<group>"; };
+		62FBAF7F239CF7FD00F68896 /* NYTModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NYTModel.xcdatamodel; sourceTree = "<group>"; };
 		9A4CD179CE9AD102493AEF75 /* Pods-NYTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTTests.release.xcconfig"; path = "Target Support Files/Pods-NYTTests/Pods-NYTTests.release.xcconfig"; sourceTree = "<group>"; };
 		9CA94C5C3DC186DBF53BB81A /* Pods-NYTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTUITests.debug.xcconfig"; path = "Target Support Files/Pods-NYTUITests/Pods-NYTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C98DDFD7D2619AD8E5983241 /* Pods-NYTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTUITests.release.xcconfig"; path = "Target Support Files/Pods-NYTUITests/Pods-NYTUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		625F9C3322E85C9E00E26E45 /* NYT */ = {
 			isa = PBXGroup;
 			children = (
+				62FBAF7D239CF7E200F68896 /* Resources */,
 				62EAC78D22E99C1B00D2DD53 /* StubbedResponse */,
 				62889F3622E8C44C0016B1DD /* Common */,
 				625F9C6822E8659500E26E45 /* Features */,
@@ -360,6 +363,14 @@
 				62FBAF79239CF13200F68896 /* ArticleDetailViewController.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		62FBAF7D239CF7E200F68896 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62FBAF7E239CF7FD00F68896 /* NYTModel.xcdatamodeld */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		72FDDDB46CF4AA76C3201B9D /* Frameworks */ = {
@@ -631,6 +642,7 @@
 				62EAC7A022E9D8B600D2DD53 /* DateExtension.swift in Sources */,
 				625F9C7122E8852200E26E45 /* DashboardTableViewDataSource.swift in Sources */,
 				625F9C7422E894A000E26E45 /* DashboardTableViewCell.swift in Sources */,
+				62FBAF80239CF7FD00F68896 /* NYTModel.xcdatamodeld in Sources */,
 				62EAC78C22E9948400D2DD53 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -960,6 +972,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62FBAF7E239CF7FD00F68896 /* NYTModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62FBAF7F239CF7FD00F68896 /* NYTModel.xcdatamodel */,
+			);
+			currentVersion = 62FBAF7F239CF7FD00F68896 /* NYTModel.xcdatamodel */;
+			path = NYTModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 625F9C2922E85C9E00E26E45 /* Project object */;
 }
