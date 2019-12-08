@@ -10,7 +10,6 @@
 		625F9C3522E85C9E00E26E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F9C3422E85C9E00E26E45 /* AppDelegate.swift */; };
 		625F9C3C22E85CA000E26E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625F9C3B22E85CA000E26E45 /* Assets.xcassets */; };
 		625F9C3F22E85CA000E26E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625F9C3D22E85CA000E26E45 /* LaunchScreen.storyboard */; };
-		625F9C4A22E85CA000E26E45 /* NYTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F9C4922E85CA000E26E45 /* NYTTests.swift */; };
 		625F9C5522E85CA000E26E45 /* NYTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F9C5422E85CA000E26E45 /* NYTUITests.swift */; };
 		625F9C6422E8651400E26E45 /* AppAppearenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F9C6322E8651400E26E45 /* AppAppearenceHelper.swift */; };
 		625F9C6722E8657100E26E45 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F9C6622E8657100E26E45 /* UIColorExtension.swift */; };
@@ -36,13 +35,12 @@
 		62EAC78F22E99C3F00D2DD53 /* GetArticle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 62EAC78E22E99C3F00D2DD53 /* GetArticle.txt */; };
 		62EAC79E22E9BE6D00D2DD53 /* GetSearchResponse.txt in Resources */ = {isa = PBXBuildFile; fileRef = 62EAC79D22E9BE6D00D2DD53 /* GetSearchResponse.txt */; };
 		62EAC7A022E9D8B600D2DD53 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC79F22E9D8B600D2DD53 /* DateExtension.swift */; };
-		62EAC7AA22E9ED1600D2DD53 /* DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC7A922E9ED1600D2DD53 /* DashboardTests.swift */; };
-		62EAC7AC22E9EEA200D2DD53 /* SearchArticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC7AB22E9EEA200D2DD53 /* SearchArticleTests.swift */; };
-		62EAC7AE22E9EF3300D2DD53 /* ArticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC7AD22E9EF3300D2DD53 /* ArticleTests.swift */; };
-		62EAC7B022E9EF9200D2DD53 /* ArticleRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC7AF22E9EF9200D2DD53 /* ArticleRequestTests.swift */; };
+		62EAC7B022E9EF9200D2DD53 /* ArticleRequestMostEmailedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC7AF22E9EF9200D2DD53 /* ArticleRequestMostEmailedTests.swift */; };
 		62FBAF7A239CF13200F68896 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBAF78239CF13200F68896 /* ArticleDetailViewController.swift */; };
 		62FBAF7B239CF13200F68896 /* ArticleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FBAF79239CF13200F68896 /* ArticleDetailViewController.xib */; };
 		62FBAF80239CF7FD00F68896 /* NYTModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62FBAF7E239CF7FD00F68896 /* NYTModel.xcdatamodeld */; };
+		62FBAF98239D202F00F68896 /* ArticleRequestMostSharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBAF97239D202F00F68896 /* ArticleRequestMostSharedTests.swift */; };
+		62FBAF9A239D20E700F68896 /* ArticleRequestMostViewedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBAF99239D20E700F68896 /* ArticleRequestMostViewedTests.swift */; };
 		66CFABAF36F86B4F63639A11 /* Pods_NYTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440DF499DF8439F8F42B491D /* Pods_NYTUITests.framework */; };
 		C0B0C37A42B096ADB852DA28 /* Pods_NYT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD74F4A928BDA544E99FE774 /* Pods_NYT.framework */; };
 		CA4AFABB42CCCC612CFD7814 /* Pods_NYTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C90523044498F3D528A1BE /* Pods_NYTTests.framework */; };
@@ -76,7 +74,6 @@
 		625F9C3E22E85CA000E26E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		625F9C4022E85CA000E26E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625F9C4522E85CA000E26E45 /* NYTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		625F9C4922E85CA000E26E45 /* NYTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTTests.swift; sourceTree = "<group>"; };
 		625F9C4B22E85CA000E26E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625F9C5022E85CA000E26E45 /* NYTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		625F9C5422E85CA000E26E45 /* NYTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTUITests.swift; sourceTree = "<group>"; };
@@ -105,13 +102,12 @@
 		62EAC78E22E99C3F00D2DD53 /* GetArticle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GetArticle.txt; sourceTree = "<group>"; };
 		62EAC79D22E9BE6D00D2DD53 /* GetSearchResponse.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GetSearchResponse.txt; sourceTree = "<group>"; };
 		62EAC79F22E9D8B600D2DD53 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
-		62EAC7A922E9ED1600D2DD53 /* DashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTests.swift; sourceTree = "<group>"; };
-		62EAC7AB22E9EEA200D2DD53 /* SearchArticleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArticleTests.swift; sourceTree = "<group>"; };
-		62EAC7AD22E9EF3300D2DD53 /* ArticleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTests.swift; sourceTree = "<group>"; };
-		62EAC7AF22E9EF9200D2DD53 /* ArticleRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequestTests.swift; sourceTree = "<group>"; };
+		62EAC7AF22E9EF9200D2DD53 /* ArticleRequestMostEmailedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequestMostEmailedTests.swift; sourceTree = "<group>"; };
 		62FBAF78239CF13200F68896 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 		62FBAF79239CF13200F68896 /* ArticleDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleDetailViewController.xib; sourceTree = "<group>"; };
 		62FBAF7F239CF7FD00F68896 /* NYTModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NYTModel.xcdatamodel; sourceTree = "<group>"; };
+		62FBAF97239D202F00F68896 /* ArticleRequestMostSharedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequestMostSharedTests.swift; sourceTree = "<group>"; };
+		62FBAF99239D20E700F68896 /* ArticleRequestMostViewedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequestMostViewedTests.swift; sourceTree = "<group>"; };
 		9A4CD179CE9AD102493AEF75 /* Pods-NYTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTTests.release.xcconfig"; path = "Target Support Files/Pods-NYTTests/Pods-NYTTests.release.xcconfig"; sourceTree = "<group>"; };
 		9CA94C5C3DC186DBF53BB81A /* Pods-NYTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTUITests.debug.xcconfig"; path = "Target Support Files/Pods-NYTUITests/Pods-NYTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C98DDFD7D2619AD8E5983241 /* Pods-NYTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTUITests.release.xcconfig"; path = "Target Support Files/Pods-NYTUITests/Pods-NYTUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,12 +185,10 @@
 		625F9C4822E85CA000E26E45 /* NYTTests */ = {
 			isa = PBXGroup;
 			children = (
-				625F9C4922E85CA000E26E45 /* NYTTests.swift */,
 				625F9C4B22E85CA000E26E45 /* Info.plist */,
-				62EAC7A922E9ED1600D2DD53 /* DashboardTests.swift */,
-				62EAC7AB22E9EEA200D2DD53 /* SearchArticleTests.swift */,
-				62EAC7AD22E9EF3300D2DD53 /* ArticleTests.swift */,
-				62EAC7AF22E9EF9200D2DD53 /* ArticleRequestTests.swift */,
+				62EAC7AF22E9EF9200D2DD53 /* ArticleRequestMostEmailedTests.swift */,
+				62FBAF97239D202F00F68896 /* ArticleRequestMostSharedTests.swift */,
+				62FBAF99239D20E700F68896 /* ArticleRequestMostViewedTests.swift */,
 			);
 			path = NYTTests;
 			sourceTree = "<group>";
@@ -651,11 +645,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62EAC7AE22E9EF3300D2DD53 /* ArticleTests.swift in Sources */,
-				62EAC7AC22E9EEA200D2DD53 /* SearchArticleTests.swift in Sources */,
-				62EAC7AA22E9ED1600D2DD53 /* DashboardTests.swift in Sources */,
-				62EAC7B022E9EF9200D2DD53 /* ArticleRequestTests.swift in Sources */,
-				625F9C4A22E85CA000E26E45 /* NYTTests.swift in Sources */,
+				62EAC7B022E9EF9200D2DD53 /* ArticleRequestMostEmailedTests.swift in Sources */,
+				62FBAF9A239D20E700F68896 /* ArticleRequestMostViewedTests.swift in Sources */,
+				62FBAF98239D202F00F68896 /* ArticleRequestMostSharedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,8 +807,9 @@
 			baseConfigurationReference = 09E48CCE1FBA07A3549C49E4 /* Pods-NYT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVPSFHXPR7;
 				INFOPLIST_FILE = NYT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -835,8 +828,9 @@
 			baseConfigurationReference = 375B913AC9622EC8EC13E602 /* Pods-NYT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVPSFHXPR7;
 				INFOPLIST_FILE = NYT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

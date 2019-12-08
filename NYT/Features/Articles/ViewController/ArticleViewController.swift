@@ -2,7 +2,7 @@
 //  ArticleViewController.swift
 //  NYT
 //
-//  Created by Rupesh Jaiswal on 25/07/19.
+//  Created by Rupesh Jaiswal on 8/12/19.
 //  Copyright © 2019 Rupesh Jaiswal. All rights reserved.
 //
 
@@ -35,22 +35,7 @@ class ArticleViewController: UIViewController {
         title = popularTypeString
         setUpUIComponents()
         fetchArticleFromDB()
-        if articleData.isEmpty {
-            fetchArticles()
-        } else {
-            var results: [ArticleResult] = []
-            for (_, element) in articleData.enumerated() {
-                let article = ArticleResult()
-                article.abstract = element.abstract
-                article.byline = element.byline
-                article.source = element.source
-                article.publishedDate = element.publishedDate
-                article.title = element.title
-                results.append(article)
-            }
-            articleTableViewDataSource.isOfflineMode = true
-            articleTableViewDataSource.articleResult = results
-        }
+        articleData.isEmpty ? fetchArticles() : buidRowsFromArticleData()
     }
     
     func fetchArticleFromDB() {
@@ -63,6 +48,21 @@ class ArticleViewController: UIViewController {
         }
     }
     
+    private func buidRowsFromArticleData() {
+        var results: [ArticleResult] = []
+        for (_, element) in articleData.enumerated() {
+            let article = ArticleResult()
+            article.abstract = element.abstract
+            article.byline = element.byline
+            article.source = element.source
+            article.publishedDate = element.publishedDate
+            article.title = element.title
+            results.append(article)
+        }
+        articleTableViewDataSource.isOfflineMode = true
+        articleTableViewDataSource.articleResult = results
+    }
+
     private func setUpUIComponents() {
         activityIndicatorView.hidesWhenStopped = true
         articleTableView?.dataSource = articleTableViewDataSource
