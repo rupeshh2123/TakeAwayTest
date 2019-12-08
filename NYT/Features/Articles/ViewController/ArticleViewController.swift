@@ -19,12 +19,15 @@ class ArticleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Articles"
+        if popularType == .emailed { title = "Most Emailed Articles" }
+        else if popularType == .shared {
+            title = "Most Shared Articles"
+        } else {
+            title = "Most Viewed Articles"
+        }
         setUpUIComponents()
         fetchArticles()
     }
-
-    
 
     private func setUpUIComponents() {
         activityIndicatorView.hidesWhenStopped = true
@@ -36,27 +39,19 @@ class ArticleViewController: UIViewController {
         articleTableView?.register(UINib(nibName: ArticleTableViewCell.xibName, bundle: nil), forCellReuseIdentifier: ArticleTableViewCell.reuseIdentifier)
         articleTableView?.tableFooterView = UIView()
     }
-    
 }
 
 extension ArticleViewController: ArticleTableViewDataSourceDelegate {
-    
-     func onbuildRowsCompleted(with newIndexPathsToReload: [IndexPath]?) {
-       // 1
-       guard let newIndexPathsToReload = newIndexPathsToReload else {
-         articleTableView.isHidden = false
-         articleTableView.reloadData()
-         return
-       }
-       articleTableView.reloadData()
-     }
-    
-    func visibleIndexPathsToReload(intersecting indexPaths: [IndexPath]) -> [IndexPath] {
-      let indexPathsForVisibleRows = articleTableView.indexPathsForVisibleRows ?? []
-      let indexPathsIntersection = Set(indexPathsForVisibleRows).intersection(indexPaths)
-      return Array(indexPathsIntersection)
+    func navigateToArticleDetailVC(articleResult: ArticleResult) {
+        let articleDetailViewController = ArticleDetailViewController()
+        articleDetailViewController.articleResult = articleResult
+        navigationController?.pushViewController(articleDetailViewController, animated: true)
     }
-    
+
+     func onbuildRowsCompleted() {
+        articleTableView.reloadData()
+     }
+
     func fetchArticles() {
         guard !isFetchInProgress else { return }
         isFetchInProgress = true
@@ -76,5 +71,4 @@ extension ArticleViewController: ArticleTableViewDataSourceDelegate {
                 ErrorHandler.showError(error: error, viewController: self!)
         })
     }
-    
 }

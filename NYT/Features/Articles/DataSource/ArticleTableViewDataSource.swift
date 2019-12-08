@@ -10,8 +10,9 @@ import Foundation
 import UIKit
 
 protocol ArticleTableViewDataSourceDelegate: class {
-    func onbuildRowsCompleted(with newIndexPathsToReload: [IndexPath]?)
+    func onbuildRowsCompleted()
     func fetchArticles()
+    func navigateToArticleDetailVC(articleResult: ArticleResult)
 }
 
 class ArticleTableViewDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
@@ -19,7 +20,6 @@ class ArticleTableViewDataSource: NSObject, UITableViewDataSource, UITableViewDe
     weak var delegate: ArticleTableViewDataSourceDelegate?
     var totalCount: Int = 0
     var rows: [NYTRow] = []
-    
     
     var articleResult: [ArticleResult] = [] {
         didSet {
@@ -47,12 +47,7 @@ class ArticleTableViewDataSource: NSObject, UITableViewDataSource, UITableViewDe
             rows.append(articleRow)
         }
         rows.append(contentsOf: rows)
-        if rows.count > 20 {
-          let indexPathsToReload = self.calculateIndexPathsToReload(from: articleResult)
-          self.delegate?.onbuildRowsCompleted(with: indexPathsToReload)
-        } else {
-          self.delegate?.onbuildRowsCompleted(with: .none)
-        }
+        self.delegate?.onbuildRowsCompleted()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -76,10 +71,9 @@ class ArticleTableViewDataSource: NSObject, UITableViewDataSource, UITableViewDe
         }
     }
     
-    private func calculateIndexPathsToReload(from newArticleResult: [ArticleResult]) -> [IndexPath] {
-      let startIndex = rows.count - newArticleResult.count
-      let endIndex = startIndex + newArticleResult.count
-      return (startIndex..<endIndex).map { IndexPath(row: $0, section: 0) }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+        delegate?.navigateToArticleDetailVC(articleResult: articleResult[indexPath.row])
     }
 }
 

@@ -20,7 +20,6 @@ class DashboardTableViewDataSource: NSObject, UITableViewDataSource, UITableView
     weak var delegate: DashboardTableViewDataSourceDelegate?
     private var sections = [NYTSection]()
 
-    
      func buildRows() {
         
         let mostViewedRow = NYTRow()
@@ -73,9 +72,7 @@ class DashboardTableViewDataSource: NSObject, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         tableView.deselectRow(at: indexPath, animated: false)
-        
         guard let onTapAction = sections[indexPath.section].rows[indexPath.row].onTapAction  else {
             return
         }

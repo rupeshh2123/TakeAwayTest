@@ -40,6 +40,8 @@
 		62EAC7AC22E9EEA200D2DD53 /* SearchArticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC7AB22E9EEA200D2DD53 /* SearchArticleTests.swift */; };
 		62EAC7AE22E9EF3300D2DD53 /* ArticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC7AD22E9EF3300D2DD53 /* ArticleTests.swift */; };
 		62EAC7B022E9EF9200D2DD53 /* ArticleRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EAC7AF22E9EF9200D2DD53 /* ArticleRequestTests.swift */; };
+		62FBAF7A239CF13200F68896 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBAF78239CF13200F68896 /* ArticleDetailViewController.swift */; };
+		62FBAF7B239CF13200F68896 /* ArticleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FBAF79239CF13200F68896 /* ArticleDetailViewController.xib */; };
 		66CFABAF36F86B4F63639A11 /* Pods_NYTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440DF499DF8439F8F42B491D /* Pods_NYTUITests.framework */; };
 		C0B0C37A42B096ADB852DA28 /* Pods_NYT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD74F4A928BDA544E99FE774 /* Pods_NYT.framework */; };
 		CA4AFABB42CCCC612CFD7814 /* Pods_NYTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C90523044498F3D528A1BE /* Pods_NYTTests.framework */; };
@@ -106,6 +108,8 @@
 		62EAC7AB22E9EEA200D2DD53 /* SearchArticleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArticleTests.swift; sourceTree = "<group>"; };
 		62EAC7AD22E9EF3300D2DD53 /* ArticleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTests.swift; sourceTree = "<group>"; };
 		62EAC7AF22E9EF9200D2DD53 /* ArticleRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequestTests.swift; sourceTree = "<group>"; };
+		62FBAF78239CF13200F68896 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		62FBAF79239CF13200F68896 /* ArticleDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleDetailViewController.xib; sourceTree = "<group>"; };
 		9A4CD179CE9AD102493AEF75 /* Pods-NYTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTTests.release.xcconfig"; path = "Target Support Files/Pods-NYTTests/Pods-NYTTests.release.xcconfig"; sourceTree = "<group>"; };
 		9CA94C5C3DC186DBF53BB81A /* Pods-NYTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTUITests.debug.xcconfig"; path = "Target Support Files/Pods-NYTUITests/Pods-NYTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C98DDFD7D2619AD8E5983241 /* Pods-NYTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTUITests.release.xcconfig"; path = "Target Support Files/Pods-NYTUITests/Pods-NYTUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -225,6 +229,7 @@
 		625F9C6822E8659500E26E45 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				62FBAF77239CF10F00F68896 /* ArticleDetail */,
 				62EAC76E22E980DA00D2DD53 /* Articles */,
 				625F9C6922E865BE00E26E45 /* Dashboard */,
 			);
@@ -338,6 +343,23 @@
 				625F9C7022E8852200E26E45 /* DashboardTableViewDataSource.swift */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		62FBAF77239CF10F00F68896 /* ArticleDetail */ = {
+			isa = PBXGroup;
+			children = (
+				62FBAF7C239CF4E500F68896 /* ViewController */,
+			);
+			path = ArticleDetail;
+			sourceTree = "<group>";
+		};
+		62FBAF7C239CF4E500F68896 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				62FBAF78239CF13200F68896 /* ArticleDetailViewController.swift */,
+				62FBAF79239CF13200F68896 /* ArticleDetailViewController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		72FDDDB46CF4AA76C3201B9D /* Frameworks */ = {
@@ -472,6 +494,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				625F9C3F22E85CA000E26E45 /* LaunchScreen.storyboard in Resources */,
+				62FBAF7B239CF13200F68896 /* ArticleDetailViewController.xib in Resources */,
 				625F9C3C22E85CA000E26E45 /* Assets.xcassets in Resources */,
 				62EAC77622E9812B00D2DD53 /* ArticleViewController.xib in Resources */,
 				625F9C7522E894A000E26E45 /* DashboardTableViewCell.xib in Resources */,
@@ -603,6 +626,7 @@
 				62EAC77522E9812B00D2DD53 /* ArticleViewController.swift in Sources */,
 				625F9C6722E8657100E26E45 /* UIColorExtension.swift in Sources */,
 				62EAC78722E991DF00D2DD53 /* Article.swift in Sources */,
+				62FBAF7A239CF13200F68896 /* ArticleDetailViewController.swift in Sources */,
 				625F9C6C22E865E800E26E45 /* DashboardViewController.swift in Sources */,
 				62EAC7A022E9D8B600D2DD53 /* DateExtension.swift in Sources */,
 				625F9C7122E8852200E26E45 /* DashboardTableViewDataSource.swift in Sources */,

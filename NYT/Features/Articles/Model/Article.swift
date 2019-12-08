@@ -21,9 +21,15 @@ class Article: Decodable {
 class ArticleResult: Decodable {
     var title: String?
     var publishedDate: String?
+    var source: String?
+    var abstract: String?
+    var byline: String?
     
     private enum CodingKeys: String, CodingKey {
         case title
         case publishedDate = "published_date"
+        case source
+        case abstract
+        case byline
     }
 }
